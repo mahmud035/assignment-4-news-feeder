@@ -1,7 +1,7 @@
 import useTime from '../../hooks/useTime.js';
 import { getCurrentDate } from '../../utils/date-time-utils.js';
 
-const Date = () => {
+const DateAndTime = () => {
   const time = useTime();
   const currentDate = getCurrentDate();
 
@@ -64,4 +64,4 @@ const Date = () => {
   );
 };
 
-export default Date;
+export default DateAndTime;
